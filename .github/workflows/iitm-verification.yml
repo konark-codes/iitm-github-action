@@ -1,0 +1,12 @@
+name: IITM Course Action
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  verification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f3004810@ds.study.iitm.ac.in
+        run: echo "IITM GitHub Actions verification workflow ran successfully."
